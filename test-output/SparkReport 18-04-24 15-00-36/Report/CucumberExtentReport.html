@@ -1,0 +1,1534 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 18, 2024 03:00:36 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@regression</a><a class="dropdown-item" href="#">@functional</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Car Loan Calculation</p>
+            <p class="text-sm">
+              <span>3:00:37 PM</span> / <span>00:01:03:623</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Car Loan Calculation</h5>
+<span class='badge badge-success'>04.18.2024 3:00:37 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:01:40 PM</span>
+<span class='badge badge-default'>00:01:03:623</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Calculation of car loan</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.CarLoanCalculationSteps.the_user_navigates_to_car_loan_section()">
+                <span>Given the user navigates to Car Loan section</span>
+      <div>----- Car Loan Calculation Scenario started -----
+      </div>
+      <div>----- Successfully navigated to CAR LOAN section -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of car loan
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.CarLoanCalculationSteps.user_enters_the_car_loan_amount()">
+                <span>When user enters the Car Loan Amount</span>
+      <div>----- Successfully entered the CAR LOAN AMOUNT -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of car loan
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.CarLoanCalculationSteps.user_enters_the_interest_rate()">
+                <span>And user enters the Interest Rate</span>
+      <div>----- Successfully entered the CAR LOAN INTEREST -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of car loan
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.CarLoanCalculationSteps.user_enters_the_loan_tenure()">
+                <span>And user enters the Loan Tenure</span>
+      <div>----- Successfully entered the CAR LOAN TENURE -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of car loan
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.CarLoanCalculationSteps.display_interest_and_principal_amount_on_console()">
+                <span>Then display interest and principal amount on console</span>
+      <div>----- Successfully extracted the principal and interest of first month -----
+      </div>
+      <div>----- Car Loan Calculation Scenario completed -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of car loan
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">EMI Calculator UI check</p>
+            <p class="text-sm">
+              <span>3:01:40 PM</span> / <span>00:00:47:098</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">EMI Calculator UI check</h5>
+<span class='badge badge-success'>04.18.2024 3:01:40 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:02:28 PM</span>
+<span class='badge badge-default'>00:00:47:098</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Validate the UI features of EMI Calculator</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_navigates_to_emi_calculator()">
+                <span>Given user navigates to EMI Calculator</span>
+      <div>----- EMI Calculation UI check started -----
+      </div>
+      <div>----- Successfully navigated to EMI Calculator -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_enters_loan_amount_in_the_loan_amount_input_box()">
+                <span>When user enters loan amount in the loan amount input box</span>
+      <div>----- Loan Amount entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.loan_amount_slider_should_be_moved_to_the_same_value()">
+                <span>Then loan amount slider should be moved to the same value</span>
+      <div>----- Loan Amount slider Validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_enters_interest_rate_in_the_interest_rate_input_box()">
+                <span>When user enters interest rate in the interest rate input box</span>
+      <div>----- Loan Interest Amount entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.interest_rate_slider_should_be_moved_to_the_same_value()">
+                <span>Then interest rate slider should be moved to the same value</span>
+      <div>----- Interest Rate slider Validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_enters_loan_tenure_in_the_loan_tenure_input_box()">
+                <span>When user enters loan tenure in the loan tenure input box</span>
+      <div>----- Loan Tenure entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.loan_tenure_slider_should_be_moved_to_the_same_value()">
+                <span>Then loan tenure slider should be moved to the same value</span>
+      <div>----- Loan Tenure slider Validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_clicks_on_month_tenure()">
+                <span>When user clicks on month tenure</span>
+      <div>----- Switched to months in Tenure -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.the_slider_should_be_moved_to_the_same_value()">
+                <span>Then the slider should be moved to the same value</span>
+      <div>----- Loan Tenure slider Validated for months -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.user_enters_charges_in_the_charges_input_box()">
+                <span>When user enters charges in the charges input box</span>
+      <div>----- Loan Charges entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EMICalculatorUICheckSteps.charges_slider_should_be_moved_to_the_same_value()">
+                <span>Then charges slider should be moved to the same value</span>
+      <div>----- Loan Charges slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of EMI Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="41"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Loan EMI Calculation</p>
+            <p class="text-sm">
+              <span>3:02:28 PM</span> / <span>00:00:52:739</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Home Loan EMI Calculation</h5>
+<span class='badge badge-success'>04.18.2024 3:02:28 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:03:20 PM</span>
+<span class='badge badge-default'>00:00:52:739</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log fail-bg mr-2">Fail</span>Calculation of Home Loan EMI</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.HomeLoanEMICalculationSteps.the_user_navigates_to_home_loan_emi_calculator()">
+                <span>Given the user navigates to Home Loan EMI Calculator</span>
+      <div>----- Home Loan EMI Calculation Scenario started -----
+      </div>
+      <div>----- Successfully navigated to Home Loan EMI Calculator -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of Home Loan EMI
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.HomeLoanEMICalculationSteps.the_user_fills_the_relevant_details()">
+                <span>When the user fills the relevant details</span>
+      <div>----- Home Loan EMI Calculation data successfully entered -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of Home Loan EMI
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.HomeLoanEMICalculationSteps.extract_the_data_from_year_on_year_table_to_excel()">
+                <span>Then extract the data from year on year table to excel</span>
+      <div>
+        <textarea disabled class="code-block">java.io.FileNotFoundException: C:\Users\2327137\Downloads\2327237_ FindTheInterestAmountForCurrentYear (1)\insuranceCalculator\ExcelSheets\HomeLoanEMI.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at utilities.OutputStreamClass.extractTable(OutputStreamClass.java:18)
+	at stepDefinitions.HomeLoanEMICalculationSteps.extract_the_data_from_year_on_year_table_to_excel(HomeLoanEMICalculationSteps.java:70)
+	at ✽.extract the data from year on year table to excel(file:///C:/Users/2327137/Downloads/2327237_%20FindTheInterestAmountForCurrentYear%20(1)/insuranceCalculator/src/test/resources/features/HomeLoanEMICalculation.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Calculation of Home Loan EMI
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Amount Calculator UI check</p>
+            <p class="text-sm">
+              <span>3:03:20 PM</span> / <span>00:00:18:863</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Loan Amount Calculator UI check</h5>
+<span class='badge badge-success'>04.18.2024 3:03:20 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:03:39 PM</span>
+<span class='badge badge-default'>00:00:18:863</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Validate the UI features of Loan Amount Calculator</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_navigates_to_loan_amount_calculator()">
+                <span>Given user navigates to Loan Amount Calculator</span>
+      <div>----- Loan Amount Calculator UI Validation Scenario started -----
+      </div>
+      <div>----- Successfully navigated to Loan Amount Calculator -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded20.png' src="../Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_enters_emi_amount_in_the_emi_amount_input_box()">
+                <span>When user enters EMI amount in the EMI amount input box</span>
+      <div>----- EMI Amount entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded21.png' src="../Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.emi_amount_slider_should_be_moved_to_the_same_value()">
+                <span>Then EMI amount slider should be moved to the same value</span>
+      <div>----- EMI Amount slider Validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded22.png' src="../Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_enters_interest_rate_in_the_interest_rate_input_box_in_LAC()">
+                <span>When user enters interest rate in the interest rate input box in LAC</span>
+      <div>----- EMI Interest Rate entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded23.png' src="../Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.interest_rate_slider_should_be_moved_to_the_same_value_in_LAC()">
+                <span>Then interest rate slider should be moved to the same value in LAC</span>
+      <div>----- Interest Rate slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded24.png' src="../Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_enters_loan_tenure_in_the_loan_tenure_input_box_in_LAC()">
+                <span>When user enters loan tenure in the loan tenure input box in LAC</span>
+      <div>----- Loan Tenure entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded25.png' src="../Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.loan_tenure_slider_should_be_moved_to_the_same_value_in_LAC()">
+                <span>Then loan tenure slider should be moved to the same value in LAC</span>
+      <div>----- Loan Tenure slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded26.png' src="../Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_clicks_on_month_tenure_in_LAC()">
+                <span>When user clicks on month tenure in LAC</span>
+      <div>----- Switched to Months in Tenure -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded27.png' src="../Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.the_slider_should_be_moved_to_the_same_value_in_LAC()">
+                <span>Then the slider should be moved to the same value in LAC</span>
+      <div>----- Loan Tenure slider with months validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded28.png' src="../Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.user_enters_charges_in_the_charges_input_box_in_LAC()">
+                <span>When user enters charges in the charges input box in LAC</span>
+      <div>----- Loan Charges entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded29.png' src="../Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanAmountCalculatorUICheckSteps.charges_slider_should_be_moved_to_the_same_value_in_LAC()">
+                <span>Then charges slider should be moved to the same value in LAC</span>
+      <div>----- Loan Charges slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Amount Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded30.png' src="../Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="77"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Tenure Calculator UI check</p>
+            <p class="text-sm">
+              <span>3:03:39 PM</span> / <span>00:00:30:521</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Loan Tenure Calculator UI check</h5>
+<span class='badge badge-success'>04.18.2024 3:03:39 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:04:10 PM</span>
+<span class='badge badge-default'>00:00:30:521</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=77</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Validate the UI features of Loan Tenure Calculator</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.user_navigates_to_loan_tenure_calculator()">
+                <span>Given user navigates to Loan Tenure Calculator</span>
+      <div>----- Loan Tenure Calculator UI check Scenario started -----
+      </div>
+      <div>----- Successfully navigated to Loan Tenure Calculator -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded31.png' src="../Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.user_enters_loan_amount_in_the_loan_amount_input_box_in_ltc()">
+                <span>When user enters loan amount in the loan amount input box in LTC</span>
+      <div>----- Loan Amount entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded32.png' src="../Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.loan_amount_slider_should_be_moved_to_the_same_value_in_ltc()">
+                <span>Then loan amount slider should be moved to the same value in LTC</span>
+      <div>----- Loan Amount slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded33.png' src="../Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.user_enters_emi_amount_in_the_emi_amount_input_box_in_ltc()">
+                <span>When user enters EMI amount in the EMI amount input box in LTC</span>
+      <div>----- EMI Amount entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded34.png' src="../Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.emi_amount_slider_should_be_moved_to_the_same_value_in_ltc()">
+                <span>Then EMI amount slider should be moved to the same value in LTC</span>
+      <div>----- EMI Amount slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded35.png' src="../Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.user_enters_interest_rate_in_the_interest_rate_input_box_in_ltc()">
+                <span>When user enters interest rate in the interest rate input box in LTC</span>
+      <div>----- Interest Rate entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded36.png' src="../Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.interest_rate_slider_should_be_moved_to_the_same_value_in_ltc()">
+                <span>Then interest rate slider should be moved to the same value in LTC</span>
+      <div>----- Interest Rate slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded37.png' src="../Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.user_enters_charges_in_the_charges_input_box_in_ltc()">
+                <span>When user enters charges in the charges input box in LTC</span>
+      <div>----- Loan Charges entered Successfully -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded38.png' src="../Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoanTenureCalculatorUICheckSteps.charges_slider_should_be_moved_to_the_same_value_in_ltc()">
+                <span>Then charges slider should be moved to the same value in LTC</span>
+      <div>----- Loan Charges slider validated -----
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Validate the UI features of Loan Tenure Calculator
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded39.png' src="../Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="99"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Runnable</p>
+            <p class="text-sm">
+              <span>3:04:10 PM</span> / <span>00:00:57:948</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Runnable</h5>
+<span class='badge badge-success'>04.18.2024 3:04:10 PM</span>
+<span class='badge badge-danger'>04.18.2024 3:05:08 PM</span>
+<span class='badge badge-default'>00:00:57:948</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=99</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="100"><span class="badge log pass-bg mr-2">Pass</span>Check whether the application can be accessed</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.RunnableCheck.the_user_navigates_to_the_application()">
+                <span>Given the user navigates to the Application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Check whether the application can be accessed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded40.png' src="../Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.RunnableCheck.the_page_title_has_to_be_displayed()">
+                <span>Then the page title has to be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Check whether the application can be accessed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded41.png' src="../Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.io.FileNotFoundException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.io.FileNotFoundException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:03:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='48'>Then extract the data from year on year table to excel</a>
+<div class="">
+<span class="badge badge-default">Home Loan EMI Calculation.Calculation of Home Loan EMI.Then extract the data from year on year table to excel</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:04:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='99' id='100'>Check whether the application can be accessed</a>
+<div class="">
+<span class="badge badge-default">Runnable.Check whether the application can be accessed</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:00:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Calculation of car loan</a>
+<div class="">
+<span class="badge badge-default">Car Loan Calculation.Calculation of car loan</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:02:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='42'>Calculation of Home Loan EMI</a>
+<div class="">
+<span class="badge badge-default">Home Loan EMI Calculation.Calculation of Home Loan EMI</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@functional</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@functional</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:00:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Calculation of car loan</a>
+<div class="">
+<span class="badge badge-default">Car Loan Calculation.Calculation of car loan</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:01:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='16'>Validate the UI features of EMI Calculator</a>
+<div class="">
+<span class="badge badge-default">EMI Calculator UI check.Validate the UI features of EMI Calculator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:02:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='42'>Calculation of Home Loan EMI</a>
+<div class="">
+<span class="badge badge-default">Home Loan EMI Calculation.Calculation of Home Loan EMI</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:03:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='52'>Validate the UI features of Loan Amount Calculator</a>
+<div class="">
+<span class="badge badge-default">Loan Amount Calculator UI check.Validate the UI features of Loan Amount Calculator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:03:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='77' id='78'>Validate the UI features of Loan Tenure Calculator</a>
+<div class="">
+<span class="badge badge-default">Loan Tenure Calculator UI check.Validate the UI features of Loan Tenure Calculator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:04:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='99' id='100'>Check whether the application can be accessed</a>
+<div class="">
+<span class="badge badge-default">Runnable.Check whether the application can be accessed</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 18, 2024 03:00:36 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 18, 2024 03:05:08 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'>
+<b>5</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='16%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='16%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>81</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Car Loan Calculation":63.623,"EMI Calculator UI check":47.098,"Home Loan EMI Calculation":52.739,"Loan Amount Calculator UI check":18.863,"Loan Tenure Calculator UI check":30.521,"Runnable":57.948
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@smoke</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@functional</td>
+<td>5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>83.333%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 81,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
